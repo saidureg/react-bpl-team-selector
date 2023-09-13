@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "image": "https://i.ibb.co/wWLvZmk/virat-kohli.jpg",
+    "age": 33,
+    "country": "India",
+    "salary": 1500000.0
+  },
+  {
+    "id": 2,
+    "name": "Kane Williamson",
+    "image": "https://i.ibb.co/znzHNQJ/kane-williamson.jpg",
+    "age": 31,
+    "country": "New Zealand",
+    "salary": 1200000.0
+  },
+  {
+    "id": 3,
+    "name": "Steve Smith",
+    "image": "https://i.ibb.co/sR0DGbV/steve-smith.jpg",
+    "age": 32,
+    "country": "Australia",
+    "salary": 1400000.0
+  },
+  {
+    "id": 4,
+    "name": "Joe Root",
+    "image": "https://i.ibb.co/F86sKcx/joe-root.jpg",
+    "age": 30,
+    "country": "England",
+    "salary": 1100000.0
+  },
+  {
+    "id": 5,
+    "name": "Rohit Sharma",
+    "image": "https://i.ibb.co/KK3s8sx/rohit-sharma.jpg",
+    "age": 34,
+    "country": "India",
+    "salary": 1300000.0
+  },
+  {
+    "id": 6,
+    "name": "Babar Azam",
+    "image": "https://i.ibb.co/jhCJpRZ/babar-azam.jpg",
+    "age": 26,
+    "country": "Pakistan",
+    "salary": 1000000.0
+  },
+  {
+    "id": 7,
+    "name": "David Warner",
+    "image": "https://i.ibb.co/PzKjW61/david-warner.jpg",
+    "age": 34,
+    "country": "Australia",
+    "salary": 1250000.0
+  },
+  {
+    "id": 8,
+    "name": "Quinton de Kock",
+    "image": "https://i.ibb.co/LnT8KJy/quinton-de-kock.jpg",
+    "age": 28,
+    "country": "South Africa",
+    "salary": 900000.0
+  },
+  {
+    "id": 9,
+    "name": "Kagiso Rabada",
+    "image": "https://i.ibb.co/NL4XQrJ/kagiso-rabada.jpg",
+    "age": 26,
+    "country": "South Africa",
+    "salary": 950000.0
+  },
+  {
+    "id": 10,
+    "name": "Shakib Al Hasan",
+    "image": "https://i.ibb.co/0YZ9pSb/shakib-al-hasan.jpg",
+    "age": 34,
+    "country": "Bangladesh",
+    "salary": 800000.0
+  },
+  {
+    "id": 11,
+    "name": "Jason Holder",
+    "image": "https://i.ibb.co/Z2GhVWj/jason-holder.jpg",
+    "age": 29,
+    "country": "West Indies",
+    "salary": 850000.0
+  },
+  {
+    "id": 12,
+    "name": "Rashid Khan",
+    "image": "https://i.ibb.co/8xscnVb/rashid-khan.jpg",
+    "age": 22,
+    "country": "Afghanistan",
+    "salary": 750000.0
+  },
+  {
+    "id": 13,
+    "name": "Pat Cummins",
+    "image": "https://i.ibb.co/NmYkwbp/pat-cummins.jpg",
+    "age": 28,
+    "country": "Australia",
+    "salary": 1350000.0
+  },
+  {
+    "id": 14,
+    "name": "Jasprit Bumrah",
+    "image": "https://i.ibb.co/KsrpS5x/jasprit-bumrah.jpg",
+    "age": 27,
+    "country": "India",
+    "salary": 1100000.0
+  },
+  {
+    "id": 15,
+    "name": "Moeen Ali",
+    "image": "https://i.ibb.co/74HFWPc/moeen-ali.jpg",
+    "age": 34,
+    "country": "England",
+    "salary": 800000.0
+  },
+  {
+    "id": 16,
+    "name": "Faf du Plessis",
+    "image": "https://i.ibb.co/gmyYrSq/faf-du-plessis.jpg",
+    "age": 37,
+    "country": "South Africa",
+    "salary": 950000.0
+  },
+  {
+    "id": 17,
+    "name": "Aaron Finch",
+    "image": "https://i.ibb.co/XzHsNKS/aaron-finch.jpg",
+    "age": 34,
+    "country": "Australia",
+    "salary": 1000000.0
+  },
+  {
+    "id": 18,
+    "name": "Shikhar Dhawan",
+    "image": "https://i.ibb.co/jTr9Zy2/shikhar-dhawan.jpg",
+    "age": 35,
+    "country": "India",
+    "salary": 1050000.0
+  },
+  {
+    "id": 19,
+    "name": "Kusal Perera",
+    "image": "https://i.ibb.co/jf2C4zc/kusal-perera.jpg",
+    "age": 31,
+    "country": "Sri Lanka",
+    "salary": 750000.0
+  },
+  {
+    "id": 20,
+    "name": "Ross Taylor",
+    "image": "https://i.ibb.co/mJQc9xN/ross-taylor.jpg",
+    "age": 37,
+    "country": "New Zealand",
+    "salary": 850000.0
+  }
+]
