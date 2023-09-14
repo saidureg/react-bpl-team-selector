@@ -1,7 +1,10 @@
 import PropTypes from "prop-types";
 
-const Card = ({ players, handleAddToBookmark }) => {
+const Card = ({ players, handleAddToBookmark, selectedPlayer }) => {
+  //   console.log(playersId);
   const { name, age, salary, country, image } = players;
+  //   const playersId = selectedPlayer.map((item) => item.includes(id));
+  //   console.log(playersId);
   return (
     <div className="card glass">
       <figure>
@@ -12,12 +15,14 @@ const Card = ({ players, handleAddToBookmark }) => {
         <p>Age : {age}</p>
         <p>Country : {country} </p>
         <p>Salary : $ {salary} </p>
-        <div className="card-actions justify-center">
+        <div key={players.id} className="card-actions justify-center">
           <button
             onClick={() => handleAddToBookmark(players)}
             className="btn btn-primary"
           >
-            Add this player
+            {selectedPlayer.includes(players.id)
+              ? "Selected Player"
+              : "Add this player"}
           </button>
         </div>
       </div>
@@ -28,6 +33,7 @@ const Card = ({ players, handleAddToBookmark }) => {
 Card.propTypes = {
   players: PropTypes.object.isRequired,
   handleAddToBookmark: PropTypes.func,
+  selectedPlayer: PropTypes.array,
 };
 
 export default Card;

@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
 const Bookmark = ({ player }) => {
-  //   console.log(player);
   const { name, image } = player;
   return (
     <div>
