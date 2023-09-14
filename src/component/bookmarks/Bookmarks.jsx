@@ -1,11 +1,16 @@
 import Bookmark from "../bookmark/Bookmark";
+import PropTypes from "prop-types";
 
-const Bookmarks = () => {
+const Bookmarks = ({ player }) => {
+  console.log(player);
   return (
     <div>
-      <Bookmark></Bookmark>
+      <Bookmark player={player}></Bookmark>
     </div>
   );
+};
+Bookmarks.propTypes = {
+  player: PropTypes.object,
 };
 
 export default Bookmarks;

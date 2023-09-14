@@ -5,7 +5,7 @@
     "image": "https://i.ibb.co/zbLcmbC/virat-kohli.png",
     "age": 33,
     "country": "India",
-    "salary": 1500000.0
+    "salary": 150000
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "image": "https://i.ibb.co/mHV09QW/kane-williamson.png",
     "age": 31,
     "country": "New Zealand",
-    "salary": 1200000.0
+    "salary": 120000
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "image": "https://i.ibb.co/L8BBZpw/steven-smith.png",
     "age": 32,
     "country": "Australia",
-    "salary": 1400000.0
+    "salary": 140000
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "image": "https://i.ibb.co/tB6Bxv8/joe-root.png",
     "age": 30,
     "country": "England",
-    "salary": 1100000.0
+    "salary": 110000
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "image": "https://i.ibb.co/fHd1wW1/rohit-sharma.png",
     "age": 34,
     "country": "India",
-    "salary": 1300000.0
+    "salary": 130000
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "image": "https://i.ibb.co/XXFcm6h/babar-azam.png",
     "age": 26,
     "country": "Pakistan",
-    "salary": 1000000.0
+    "salary": 100000
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "image": "https://i.ibb.co/2jrR3WF/david-warner.png",
     "age": 34,
     "country": "Australia",
-    "salary": 1250000.0
+    "salary": 125000
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "image": "https://i.ibb.co/NLy6HsX/de-kock.png",
     "age": 28,
     "country": "South Africa",
-    "salary": 900000.0
+    "salary": 90000
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "image": "https://i.ibb.co/Qm4rqR2/kagiso-rabada.png",
     "age": 26,
     "country": "South Africa",
-    "salary": 950000.0
+    "salary": 95000
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "image": "https://i.ibb.co/sq8CBT2/shakib-al-hasan.png",
     "age": 34,
     "country": "Bangladesh",
-    "salary": 800000.0
+    "salary": 80000
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "image": "https://i.ibb.co/kJbqd53/jason-holder.png",
     "age": 29,
     "country": "West Indies",
-    "salary": 850000.0
+    "salary": 85000
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "image": "https://i.ibb.co/WWnyd00/rashid-khan.png",
     "age": 22,
     "country": "Afghanistan",
-    "salary": 750000.0
+    "salary": 75000
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "image": "https://i.ibb.co/JrnxDpf/pat-cummins.png",
     "age": 28,
     "country": "Australia",
-    "salary": 1350000.0
+    "salary": 135000
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "image": "https://i.ibb.co/sVbWHbW/jasprit-bumrah.png",
     "age": 27,
     "country": "India",
-    "salary": 1100000.0
+    "salary": 110000
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "image": "https://i.ibb.co/RDSv9MZ/moeen-ali.png",
     "age": 34,
     "country": "England",
-    "salary": 800000.0
+    "salary": 80000
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "image": "https://i.ibb.co/qJwS7Ld/faf-du-plessis.png",
     "age": 37,
     "country": "South Africa",
-    "salary": 950000.0
+    "salary": 95000
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "image": "https://i.ibb.co/r3N1g5R/aaron-finch.png",
     "age": 34,
     "country": "Australia",
-    "salary": 1000000.0
+    "salary": 100000
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "image": "https://i.ibb.co/r4GZN9m/shikhar-dhawan.png",
     "age": 35,
     "country": "India",
-    "salary": 1050000.0
+    "salary": 105000
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "image": "https://i.ibb.co/7VqxDrD/kusal-perera.png",
     "age": 31,
     "country": "Sri Lanka",
-    "salary": 750000.0
+    "salary": 75000
   },
   {
     "id": 20,
@@ -157,6 +157,6 @@
     "image": "https://i.ibb.co/s2ywFbf/ross-taylor.png",
     "age": 37,
     "country": "New Zealand",
-    "salary": 850000.0
+    "salary": 85000
   }
 ]
