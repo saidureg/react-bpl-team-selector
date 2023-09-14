@@ -1,18 +1,27 @@
-const Card = () => {
+import PropTypes from "prop-types";
+
+const Card = ({ players }) => {
+  const { name, age, salary, country, image } = players;
   return (
-    <div className="card w-96 glass">
+    <div className="card glass">
       <figure>
-        <img src="https://i.ibb.co/mHV09QW/kane-williamson.png" alt="car!" />
+        <img src={image} alt="car!" />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title">Life hack</h2>
-        <p>How to park your car at your garage?</p>
-        <div className="card-actions justify-end">
-          <button className="btn btn-primary">Learn now!</button>
+      <div className="card-body text-white">
+        <h2 className="card-title">Name : {name}</h2>
+        <p>Age : {age}</p>
+        <p>Country : {country} </p>
+        <p> Salary : {salary} </p>
+        <div className="card-actions justify-center">
+          <button className="btn btn-primary">Add this player</button>
         </div>
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  players: PropTypes.object.isRequired,
 };
 
 export default Card;

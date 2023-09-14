@@ -1,4 +1,5 @@
 import "./App.css";
+import Bookmarks from "./component/bookmarks/Bookmarks";
 import Gallery from "./component/gallery/Gallery";
 
 function App() {
@@ -10,7 +11,10 @@ function App() {
           This players are available for your team
         </p>
       </div>
-      <Gallery></Gallery>
+      <div className="flex gap-4 p-5">
+        <Gallery></Gallery>
+        <Bookmarks></Bookmarks>
+      </div>
     </div>
   );
 }

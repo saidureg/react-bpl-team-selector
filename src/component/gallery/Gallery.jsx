@@ -11,9 +11,9 @@ const Gallery = () => {
       .then((data) => setDataLoad(data));
   }, []);
   return (
-    <div className="gallery-container">
+    <div className="grid lg:grid-cols-3 gap-3">
       {dataLoad.map((players, idx) => (
-        <Cards key={idx}></Cards>
+        <Cards key={idx} players={players}></Cards>
       ))}
     </div>
   );
