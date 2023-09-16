@@ -25,5 +25,6 @@ With this project, you can:
 
 - React.js
 - JavaScript
+- HTML
 - CSS
 - FontAwesome for icons
