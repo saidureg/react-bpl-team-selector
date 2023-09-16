@@ -6,7 +6,7 @@ const Bookmark = ({ player }) => {
   return (
     <div>
       <div className="flex items-center bg-[#CACBBC] rounded-2xl pr-5 mt-5">
-        <img className="w-[80px]" src={image} alt="" />
+        <img className="w-[80px] rounded-full" src={image} alt="" />
         <div className="flex flex-1 items-center ml-5 gap-4">
           <h3 className="text-xl text-[#020202] font-medium flex-1">{name}</h3>
           <FontAwesomeIcon

@@ -7,9 +7,9 @@ const Card = ({ players, handleAddToBookmark, selectedPlayer }) => {
   const playersId = selectedPlayer.find((item) => item.id === players.id);
 
   return (
-    <div className="card glass">
+    <div className="card glass max-h-[500px]">
       <figure>
-        <img src={image} alt={name} />
+        <img className="rounded-full w-[250px] pt-2" src={image} alt={name} />
       </figure>
       <div className="card-body text-white">
         <h2 className="card-title">Name : {name}</h2>

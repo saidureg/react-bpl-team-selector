@@ -34,8 +34,8 @@ const Gallery = () => {
   };
 
   return (
-    <div className="flex gap-4 p-5">
-      <div className="grid lg:grid-cols-3 gap-3 mx-24">
+    <div className="flex flex-col lg:flex-row gap-4 p-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:mx-20">
         {dataLoad.map((players, idx) => (
           <Cards
             key={idx}
@@ -47,7 +47,7 @@ const Gallery = () => {
       </div>
       <div>
         <div className="text-center text-3xl text-amber-50 font-medium">
-          <div className="flex items-center ml-5">
+          <div className="flex items-center ml-8 md:ml-52 lg:ml-5">
             <FontAwesomeIcon className="p-2" icon={faUser} />
             <h3>Players Added : {selectedPlayer.length}</h3>
           </div>
