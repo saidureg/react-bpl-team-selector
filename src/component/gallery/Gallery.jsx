@@ -19,13 +19,16 @@ const Gallery = () => {
 
   const handleAddToBookmark = (player) => {
     let salary = player.salary;
+
     const isExist = selectedPlayer.find((item) => item.id === player.id);
+
     if (isExist) {
       return alert("This player already added");
     }
-    selectedPlayer.forEach((playerSalary) => {
-      salary = salary + playerSalary.salary;
+    selectedPlayer.forEach((element) => {
+      salary = salary + element.salary;
     });
+
     setTotalCost(salary);
     setSelectedPlayer([...selectedPlayer, player]);
   };

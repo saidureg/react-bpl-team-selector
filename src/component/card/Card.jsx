@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 const Card = ({ players, handleAddToBookmark, selectedPlayer }) => {
-  //   console.log(playersId);
   const { name, age, salary, country, image } = players;
-  //   const playersId = selectedPlayer.map((item) => item.includes(id));
-  //   console.log(playersId);
+  const playersId = selectedPlayer.find((item) => item.id === players.id);
+
   return (
     <div className="card glass">
       <figure>
@@ -15,12 +16,19 @@ const Card = ({ players, handleAddToBookmark, selectedPlayer }) => {
         <p>Age : {age}</p>
         <p>Country : {country} </p>
         <p>Salary : $ {salary} </p>
-        <div key={players.id} className="card-actions justify-center">
+        <div className="card-actions justify-center">
           <button
             onClick={() => handleAddToBookmark(players)}
-            className="btn btn-primary"
+            className={
+              playersId?.id === players.id
+                ? "btn btn-primary opacity-70"
+                : "btn btn-primary"
+            }
           >
-            {selectedPlayer.includes(players.id)
+            {playersId?.id === players.id && (
+              <FontAwesomeIcon className=" text-xl" icon={faCheck} />
+            )}
+            {playersId?.id === players.id
               ? "Selected Player"
               : "Add this player"}
           </button>
